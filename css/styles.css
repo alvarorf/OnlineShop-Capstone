@@ -2,8 +2,16 @@
   visibility: visible;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 .empty-header {
   display: none;
+}
+
+.hotads-divbutton {
+  height: 40px;
 }
 
 ul {
@@ -96,10 +104,6 @@ section {
   background-color: white;
 }
 
-a:hover {
-  color: white;
-}
-
 .search-nav {
   height: 200px;
   background-color: #d35266;
@@ -177,11 +181,21 @@ a:hover {
   grid-template-columns: repeat(5,1fr);
 }
 
+.section-hotads img:hover {
+  border: 1px solid rgba(224, 222, 222, 0.5);
+}
+
 .product-barbells a:hover {
+  color: #383838;
   cursor: pointer;
 }
 
-.product-barbells-div {
+i:hover {
+  color: #383838;
+}
+
+.product-barbells-div:hover {
+  border: 1px solid rgba(224, 222, 222, 0.5);
 
 }
 
@@ -216,12 +230,6 @@ a:hover {
   padding-right: 50px;
 }
 
-.hotads-det button {
-  width: 50%;
-  margin-left: 0;
-  padding-left: 0;
-}
-
 .buttons-hotads:hover {
   background-color: white;
   color: #383838;
@@ -232,7 +240,27 @@ a:hover {
 }
 
 .hotads-price {
+  border-top: 0;
+  border-bottom: 0;
+  border-left: 0;
   border-right: 1px solid #38383880;
+  background-color: #d35266;
+  color: white;
+}
+
+.barbells-price {
+  border: 0;
+  background-color: transparent;
+  color: #d35266;
+}
+
+.barbells-price:hover {
+  color: red;
+}
+
+.hotads-price:hover, .hotads-purchase:hover {
+  background-color: white;
+  color: #38383880;
 }
 
 footer {
@@ -240,6 +268,22 @@ footer {
   margin: 0 auto;
 }
 
+footer a:hover {
+  color: #696868;
+  text-decoration: none;
+}
+
+.footer1 {
+  grid-column: 2 / 3;
+  margin: 20px 40px 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer1 ul {
+  padding-right: 50px;
+}
 .footer2-copyright {
   font-size: 12px;
 }
@@ -252,4 +296,25 @@ footer {
   color: gray;
 }
 
+.button-footer {
+  background-color: transparent;
+  padding: 6px 12px;
+  margin-left: 15px;
+  min-width: 150px;
+  border: none;
+  border: 1px solid rgba(136, 136, 136, 0.5);
+}
+
+.button-footer:hover {
+  color: white;
+  background-color: #383838;
+}
+
+.footer2-ul a:hover {
+  color: #383838;
+}
+
+.footer1-select {
+  width: 30%;
+}
 /*# sourceMappingURL=styles.css.map */
