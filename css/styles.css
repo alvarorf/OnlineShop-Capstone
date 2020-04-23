@@ -1,3 +1,41 @@
+@font-face {
+  font-family: "HelveticaNeue-Medium";
+  font-weight: 500;
+  font-style: normal;
+  src: url("../fonts/HelveticaNeue\ Medium.ttf");
+}
+
+
+.f-family-helvetica-m {
+  font-family: "HelveticaNeue-Medium", sans-serif;
+}
+
+.checkbox-custom {
+position: relative;
+padding-left: 30px;
+margin-bottom: 10px;
+display: block;
+cursor: pointer;
+font-size: 14px;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+
+.checkmark {
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 10px;
+  display: block;
+  cursor: pointer;
+  font-size: 14px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
 .visible {
   visibility: visible;
 }
@@ -37,8 +75,13 @@ ul {
 .section-hotads {
   height: 350px;
   width: 80%;
-
 }
+
+.section-hotads2 {
+  height: 350px;
+  width: 60%;
+}
+
 
 .carousel, .carousel-item, #hot-ads {
   width: 100%;
@@ -162,7 +205,7 @@ section {
   background-color: rgba(255, 255, 255, 0.7);
 }
 
-.product-hotads {
+.product-hotads, .search-hotads {
   width: 100%;
   min-height: 300px;
   margin: auto;
@@ -174,6 +217,13 @@ section {
   width: 50%;
   margin-left: 20px;
   margin-right: 20px;
+}
+
+.img-search {
+  width: 100%;
+  margin-left: 20px;
+  margin-right: 20px;
+
 }
 
 .product-barbells {
@@ -222,6 +272,7 @@ i:hover {
   border: 0;
   padding: 5px;
   width: 100%;
+  min-width: 200px;
   margin: 0 auto;
 }
 
@@ -252,6 +303,16 @@ i:hover {
   border: 0;
   background-color: transparent;
   color: #d35266;
+}
+
+a[href="index.html"] i {
+  color: #888;
+}
+
+.search-nav h1 {
+  margin: 0 auto;
+  color: white;
+  font-size: 60px;
 }
 
 .barbells-price:hover {

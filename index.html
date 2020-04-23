@@ -27,7 +27,7 @@
             <ul class="d-flex p-2 justify-content-around align-items-center color3">
               <li class="p-3">
                 <a href="index.html" class="text-decoration-none">
-                  <img class="color3" src="./images/logo.png" alt="main navbar logo">
+                  <i class="fab fa-bootstrap fa-3x" aria-hidden="true"></i>
                 </a>            
               </li>
     
@@ -81,10 +81,11 @@
           </div>
           <!--MAIN NAV-->     
         </nav>
-        <div class="search-nav d-flex justify-content-center align-items-center">
-          <h1>
-            <img src="./img/.png" alt="">
-          </h1>        
+        <div class="search-nav justify-content-center align-items-center">
+          <h1 class="f-family-helvetica-m d-flex font-weight-bold w-50 justify-content-center p-2">
+            Barbend
+          </h1>
+          <br>
           <form class="d-flex justify-content-center align-items-center search-form" action="search.html">
            
             <select class="departments pl-4 text-muted m-2" id="departments" name="departments">
@@ -400,7 +401,7 @@
           <div class="carousel-inner hotads-inner">
 
 
-            <div id="item0b" class="carousel-item active">
+            <div id="item0r" class="carousel-item active">
               <div class="product-barbells">
                 <div class="product-barbells-div ml-2 mr-2 bg-light">
                   <img class="w-100" src="https://www.roguefitness.com/media/catalog/product/cache/1/rogue_header_2015/844x/472321edac810f9b2465a359d8cdc0b5/r/-/r-4-power-rack-lg_1.jpg" alt="">
@@ -455,7 +456,7 @@
               </div>
             </div>
             
-            <div id="item1b" class="carousel-item">
+            <div id="item1r" class="carousel-item">
               <div class="product-barbells">
                 <div class="product-barbells-div ml-2 mr-2 bg-light">
                   <img class="w-100" src="https://i.pinimg.com/originals/aa/2d/01/aa2d0185f4b35b446d0e14e9f9da839d.png" alt="">
@@ -509,7 +510,7 @@
                 </div> 
               </div>
             </div>
-            <div id="item2b" class="carousel-item">
+            <div id="item2r" class="carousel-item">
               <div class="product-barbells">
                 <div class="product-barbells-div ml-2 mr-2 bg-light">
                   <img class="w-100" src="https://i.pinimg.com/originals/aa/2d/01/aa2d0185f4b35b446d0e14e9f9da839d.png" alt="">
@@ -586,7 +587,7 @@
 
 
       </section>
-      </section>
+      
       <section class="section-barbells justify-content-center p-2">
         <h2 class="empty-header">Empty header</h2>
         <div class="p-2 font-weight-bold color1">Accessories</div><br>
@@ -594,7 +595,7 @@
           <div class="carousel-inner hotads-inner">
 
 
-            <div id="item0b" class="carousel-item active">
+            <div id="item0ac" class="carousel-item active">
               <div class="product-barbells">
                 <div class="product-barbells-div ml-2 mr-2 bg-light">
                   <img class="w-100" src="https://i.pinimg.com/originals/aa/2d/01/aa2d0185f4b35b446d0e14e9f9da839d.png" alt="">
@@ -649,7 +650,7 @@
               </div>
             </div>
             
-            <div id="item1b" class="carousel-item">
+            <div id="item1ac" class="carousel-item">
               <div class="product-barbells">
                 <div class="product-barbells-div ml-2 mr-2 bg-light">
                   <img class="w-100" src="https://i.pinimg.com/originals/aa/2d/01/aa2d0185f4b35b446d0e14e9f9da839d.png" alt="">
@@ -703,7 +704,7 @@
                 </div> 
               </div>
             </div>
-            <div id="item2b" class="carousel-item">
+            <div id="item2ac" class="carousel-item">
               <div class="product-barbells">
                 <div class="product-barbells-div ml-2 mr-2 bg-light">
                   <img class="w-100" src="https://i.pinimg.com/originals/aa/2d/01/aa2d0185f4b35b446d0e14e9f9da839d.png" alt="">
@@ -787,11 +788,13 @@
       <footer >
         <div class="footer1">
           <div class="p-2">
-            <a href="#">
+            
               <h5 class="">
-                <img src="./img/.png" alt="logo">
+                <a href="index.html" class="text-decoration-none">
+                  <i class="fab fa-bootstrap fa-3x" aria-hidden="true"></i>
+                </a> 
               </h5>
-            </a> 
+            
             <p class="color02 f-family-helvetica-l">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </div>
   
@@ -826,39 +829,34 @@
               <ul class="pl-3">
                 <li>
                   <a class="color2" href="#">
-                    Equipped
+                    Raw
                   </a>
                 </li>
   
                 <li>
                   <a class="color2" href="#">
-                    About
+                    Raw with wraps
                   </a>
                 </li>
   
                 <li>
                   <a class="color2" href="#">
-                    Help
+                    Single ply
                   </a>
                 </li>
   
                 <li>
                   <a class="color2" href="#">
-                    Earrings
+                    Multi-ply
                   </a>
                 </li>
   
                 <li>
                   <a class="color2" href="#">
-                    Necklaces
+                    Push-pull
                   </a>
                 </li>
   
-                <li>
-                  <a class="color2" href="#">
-                    Rings
-                  </a>
-                </li>
               </ul>
             </div>
           </div>
@@ -966,23 +964,7 @@
 
 
       </footer>
-      <script>
 
-
-        window.onscroll = function () { myFunction() };
-    
-        var hiddennav = document.getElementById("");
-    
-        function myFunction() {
-    
-          if (window.pageYOffset >= 100) {
-            hiddennav.classList.add("visible")
-          }
-          else {
-            hiddennav.classList.remove("visible")
-          }
-        }  
-      </script>
     </main>
 
     <!-- Optional JavaScript -->
