@@ -9,7 +9,6 @@ a:hover {
   text-decoration: none;
 }
 
-
 i:hover {
   color: #383838;
 }
@@ -142,7 +141,7 @@ section {
 .search-nav {
   height: 200px;
   background-color: #d35266;
-  background-image: url('../images/greyback.png')
+  background-image: url('../images/greyback.png');
 }
 
 .departments {
@@ -213,7 +212,7 @@ section {
 
 .product-barbells {
   display: grid;
-  grid-template-columns: repeat(5,1fr);
+  grid-template-columns: repeat(5, 1fr);
 }
 
 .section-hotads img:hover {
@@ -228,6 +227,14 @@ footer {
 footer a:hover {
   color: #696868;
   text-decoration: none;
+}
+
+.footer2-ul {
+  font-size: 22px;
+}
+
+.footer2-ul li a {
+  color: gray;
 }
 
 .product-barbells a:hover {
@@ -321,14 +328,6 @@ footer a:hover {
 
 .footer2-copyright {
   font-size: 12px;
-}
-
-.footer2-ul {
-  font-size: 22px;
-}
-
-.footer2-ul li a{
-  color: gray;
 }
 
 .button-footer {
