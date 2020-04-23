@@ -5,7 +5,22 @@
   src: url("../fonts/HelveticaNeue\ Medium.ttf");
 }
 
-nav a:hover, nav i:hover, nav a i:hover{
+a:hover {
+  text-decoration: none;
+}
+
+
+i:hover {
+  color: #383838;
+}
+
+a[href="index.html"] i {
+  color: #888;
+}
+
+nav a:hover,
+nav i:hover,
+nav a i:hover {
   color: white;
 }
 
@@ -15,10 +30,6 @@ nav a:hover, nav i:hover, nav a i:hover{
 
 .visible {
   visibility: visible;
-}
-
-a:hover {
-  text-decoration: none;
 }
 
 .empty-header {
@@ -58,8 +69,9 @@ ul {
   height: 350px;
 }
 
-
-.carousel, .carousel-item, #hot-ads {
+.carousel,
+.carousel-item,
+#hot-ads {
   width: 100%;
 }
 
@@ -81,11 +93,13 @@ section {
 .adv-icon {
   color: #383838;
 }
+
 .adv-icon:hover {
   color: #d35266;
 }
 
 .carousel-indicators li {
+  bottom: -50px;
   background-color: black;
 }
 
@@ -97,7 +111,8 @@ section {
   color: black;
 }
 
-.carousel-control-prev, .carousel-control-next {
+.carousel-control-prev,
+.carousel-control-next {
   background-color: black;
   color: black;
   border-radius: 50%;
@@ -119,6 +134,7 @@ section {
 .btn {
   border-radius: 0;
 }
+
 .btn:hover {
   background-color: white;
 }
@@ -174,7 +190,8 @@ section {
   background-color: rgba(255, 255, 255, 0.7);
 }
 
-.product-hotads, .search-hotads {
+.product-hotads,
+.search-hotads {
   width: 100%;
   min-height: 300px;
   margin: auto;
@@ -192,7 +209,6 @@ section {
   width: 100%;
   margin-left: 20px;
   margin-right: 20px;
-
 }
 
 .product-barbells {
@@ -204,13 +220,19 @@ section {
   border: 1px solid rgba(224, 222, 222, 0.5);
 }
 
+footer {
+  width: 80%;
+  margin: 0 auto;
+}
+
+footer a:hover {
+  color: #696868;
+  text-decoration: none;
+}
+
 .product-barbells a:hover {
   color: #383838;
   cursor: pointer;
-}
-
-i:hover {
-  color: #383838;
 }
 
 .product-barbells-div:hover {
@@ -220,10 +242,6 @@ i:hover {
 .carousel-hotads {
   max-width: 1100px;
   margin: auto;
-}
-
-.carousel-indicators {
-  bottom: -50px;
 }
 
 .prev {
@@ -273,10 +291,6 @@ i:hover {
   color: #d35266;
 }
 
-a[href="index.html"] i {
-  color: #888;
-}
-
 .search-nav h1 {
   margin: 0 auto;
   color: white;
@@ -287,19 +301,10 @@ a[href="index.html"] i {
   color: red;
 }
 
-.hotads-price:hover, .hotads-purchase:hover {
+.hotads-price:hover,
+.hotads-purchase:hover {
   background-color: white;
   color: #38383880;
-}
-
-footer {
-  width: 80%;
-  margin: 0 auto;
-}
-
-footer a:hover {
-  color: #696868;
-  text-decoration: none;
 }
 
 .footer1 {
@@ -313,6 +318,7 @@ footer a:hover {
 .footer1 ul {
   padding-right: 50px;
 }
+
 .footer2-copyright {
   font-size: 12px;
 }
