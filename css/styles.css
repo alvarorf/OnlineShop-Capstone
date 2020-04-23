@@ -6,6 +6,10 @@
 }
 
 
+nav a:hover, nav i:hover, nav a i:hover{
+  color: white;
+}
+
 .f-family-helvetica-m {
   font-family: "HelveticaNeue-Medium", sans-serif;
 }
@@ -79,7 +83,6 @@ ul {
 
 .section-hotads2 {
   height: 350px;
-  width: 60%;
 }
 
 
