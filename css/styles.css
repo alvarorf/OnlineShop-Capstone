@@ -5,39 +5,12 @@
   src: url("../fonts/HelveticaNeue\ Medium.ttf");
 }
 
-
 nav a:hover, nav i:hover, nav a i:hover{
   color: white;
 }
 
 .f-family-helvetica-m {
   font-family: "HelveticaNeue-Medium", sans-serif;
-}
-
-.checkbox-custom {
-position: relative;
-padding-left: 30px;
-margin-bottom: 10px;
-display: block;
-cursor: pointer;
-font-size: 14px;
--webkit-user-select: none;
--moz-user-select: none;
--ms-user-select: none;
-user-select: none;
-}
-
-.checkmark {
-  position: relative;
-  padding-left: 30px;
-  margin-bottom: 10px;
-  display: block;
-  cursor: pointer;
-  font-size: 14px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
 }
 
 .visible {
@@ -167,7 +140,6 @@ section {
   background-position: 5px center;
 }
 
-
 .search {
   width: 140px;
   background-color: #696868;
@@ -185,15 +157,9 @@ section {
   border-color: transparent;
 }
 
-.hotads-inner {
-  
-}
-
 .hotads-imgbox {
   background-image: url("https://images-na.ssl-images-amazon.com/images/I/610qE98yYRL._AC_UY395_.jpg");
 }
-
-
 
 .prev-next-hotads {
   position: absolute;
@@ -249,7 +215,6 @@ i:hover {
 
 .product-barbells-div:hover {
   border: 1px solid rgba(224, 222, 222, 0.5);
-
 }
 
 .carousel-hotads {
@@ -381,4 +346,3 @@ footer a:hover {
 .footer1-select {
   width: 30%;
 }
-/*# sourceMappingURL=styles.css.map */

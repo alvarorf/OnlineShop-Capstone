@@ -1,10 +1,6 @@
 # Using Bootstrap: Newsweek Clone
 
 > Welcome to my online Powerlifting store, built html and Bootstrap, a CSS framework. Please enjoy and leave a comment. 
-The purpose of this exercise is to show the capabilities of the Bootstrap framework and its advantages, such as web responsiveness out of the box.
-
-By default, Bootstrap includes several breakpoints. The ones used here are:
-Medium (>=768px) and Small (<768px).
 
 The live demo can be found here:
 [Live Demo]()
@@ -49,8 +45,8 @@ This project is for microverse course purposes.
 
 ## Screenshots:
 
-## Medium size:
-![screenshot](/images/MediumSize.jpeg)
+## Index:
+![screenshot](/images/Index.png)
 
-## Small size:
-![screenshot](/images/SmallSize.jpeg)
+## Search   :
+![screenshot](/images/Search.png)
