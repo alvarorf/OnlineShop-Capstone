@@ -103,6 +103,7 @@ section {
 }
 
 .barbell-inner {
+  display: -ms-grid;
   display: grid;
 }
 
@@ -181,9 +182,15 @@ section {
   top: 50%;
   width: 40px;
   height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   border: 1px solid rgba(136, 136, 136, 0.3);
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.7);
@@ -194,8 +201,11 @@ section {
   width: 100%;
   min-height: 300px;
   margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
 }
 
 .product-hotads img {
@@ -211,7 +221,9 @@ section {
 }
 
 .product-barbells {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: (1fr)[5];
   grid-template-columns: repeat(5, 1fr);
 }
 
@@ -315,11 +327,19 @@ footer a:hover {
 }
 
 .footer1 {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
   grid-column: 2 / 3;
   margin: 20px 40px 0 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 .footer1 ul {
