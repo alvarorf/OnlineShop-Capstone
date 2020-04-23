@@ -7,13 +7,11 @@ The live demo can be found here:
 
 ## Built With
 
-- HTML,
-- CSS,
-- SASS
+- HTML
+- CSS
 - Bootstrap 4
 - Stylelint
 - Visual Studio Code
-- Koala
 
 ### Setup
 
