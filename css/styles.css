@@ -13,6 +13,62 @@ i:hover {
   color: #383838;
 }
 
+.dflex {
+  display: flex;
+}
+
+.pad-1 {
+  padding: 0.25rem;
+}
+
+.pad-2 {
+  padding: 0.5rem;
+}
+
+.pad-3 {
+  padding: 1rem;
+}
+
+.padr2 {
+  padding-right: 0.5rem;
+}
+
+.padl-2 {
+  padding-left: 0.5rem;
+}
+
+.padl-4 {
+  padding-left: 1.5rem;
+}
+
+.padt-2 {
+  padding-top: 0.5rem;
+}
+
+.padt-5 {
+  padding-top: 3rem;
+}
+
+.mar-0 {
+  margin: 0;
+}
+
+.mar-2 {
+  margin: 0.5rem;
+}
+
+.marr-2 {
+  margin-right: 0.5rem;
+}
+
+.marl-2 {
+  margin-left: 0.5rem;
+}
+
+.mart-3 {
+  margin-top: 1rem;
+}
+
 a[href="index.html"] i {
   color: #888;
 }
@@ -29,6 +85,10 @@ nav a i:hover {
 
 .visible {
   visibility: visible;
+}
+
+html {
+  min-width: 950px;
 }
 
 .empty-header {
@@ -60,12 +120,7 @@ ul {
 }
 
 .section-hotads {
-  height: 350px;
   width: 80%;
-}
-
-.section-hotads2 {
-  height: 350px;
 }
 
 .carousel,
@@ -143,6 +198,7 @@ section {
   height: 200px;
   background-color: #d35266;
   background-image: url('../images/greyback.png');
+  min-width: 800px;
 }
 
 .departments {
@@ -173,10 +229,6 @@ section {
   border-color: transparent;
 }
 
-.hotads-imgbox {
-  background-image: url("https://images-na.ssl-images-amazon.com/images/I/610qE98yYRL._AC_UY395_.jpg");
-}
-
 .prev-next-hotads {
   position: absolute;
   top: 50%;
@@ -198,24 +250,19 @@ section {
 
 .product-hotads,
 .search-hotads {
-  width: 100%;
-  min-height: 300px;
-  margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-line-pack: center;
-  align-content: center;
 }
 
 .product-hotads img {
-  width: 50%;
+  width: 30%;
   margin-left: 20px;
   margin-right: 20px;
 }
 
 .img-search {
-  width: 100%;
+  width: 40%;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -280,11 +327,6 @@ footer a:hover {
   margin: 0 auto;
 }
 
-.hotads-det {
-  padding-left: 10px;
-  padding-right: 50px;
-}
-
 .buttons-hotads:hover {
   background-color: white;
   color: #383838;
@@ -292,6 +334,15 @@ footer a:hover {
 
 .purchase-text-hotads {
   margin-left: 20px;
+}
+
+.options-search form {
+  white-space: nowrap;
+}
+
+.options-search label {
+  width: 100%;
+  display: flex;
 }
 
 .hotads-price {
@@ -369,4 +420,63 @@ footer a:hover {
 
 .footer1-select {
   width: 30%;
+  min-width: 280px;
+}
+
+/*
+Media queries
+*/
+
+@media only screen and (max-width: 1024px) {
+  body {
+    margin: 0 auto;
+  }
+
+  footer {
+    width: 100%;
+  }
+
+  .main-nav ul li {
+    padding: 3px;
+  }
+
+  .search-form {
+    padding: 0;
+  }
+
+  .search-nav form * {
+    margin: 0.01rem;
+  }
+
+  .product-hotads img {
+    width: 50%;
+    min-width: 200px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .main-topnav * {
+    padding: 2px;
+  }
+
+  section {
+    width: 95%;
+  }
+
+  .main-nav {
+    white-space: nowrap;
+  }
+
+  .main-topnav a {
+    font-size: 15px;
+  }
+
+  .main-topnav li {
+    padding: 2px;
+  }
+
+  .search-nav form {
+    padding: 0;
+    margin: 0;
+  }
 }
