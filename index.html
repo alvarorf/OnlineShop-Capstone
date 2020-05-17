@@ -6,15 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     
     <!-- Font awesome script -->
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
     <!-- Main stylesheet file -->
     <link rel="stylesheet" href="css/styles.css">
-    <!-- Media queries -->
-    <link rel="stylesheet" href="css/mediaqueries.css">
 
     <title>Powerlifting shop</title>
   </head>
@@ -23,61 +22,64 @@
       <header class="">
         <nav class="main-topnav">
           <!--MAIN NAV-->
-          <div class="dflex justify-content-between align-items-center padl-2 padr-2 padt-2 main-nav color2">
-            <ul class="dflex pad-2 justify-content-around align-items-center color3">
-              <li class="pad-1 pad-3">
-                <a href="index.html" class="text-decoration-none">
-                  <i class="fab fa-bootstrap fa-3x" aria-hidden="true"></i>
-                </a>            
-              </li>
-    
-              <li>            
-                <a class="pad-1 pad-3 color3 text-decoration-none" href="index.html">
-                  <i class="fas fa-home nav-icon"></i>
-                  HOME
-                </a>
-              </li>
-    
-              <li>            
-                <a class="pad-1 pad-3 color3 text-decoration-none" href="search.html">
-                  <i class="fas fa-border-all nav-icon"></i>
-                  COLLECTIONS
-                </a>
-              </li>
-    
-              <li>            
-                <a class="pad-1 pad-3 color3 text-decoration-none" href="#">
-                  <i class="fas fa-shopping-cart nav-icon"></i>
-                  PURCHASE LIST
-                </a>
-              </li>
-    
-              <li class="pad-1 pad-3 color3 text-decoration-none">
-                <button class="btn post-an-ad" type="button">
-                  POST AN AD
-                </button>
-              </li>
-            </ul>
-            
-            <ul class="dflex pad-2 justify-content-around">
-              <li class="pad-3">
-                <a class="text-decoration-none color3" href="#">
-                  <i class="fas fa-envelope"></i>
-                </a>
-              </li>
-    
-              <li class="pad-3">
-                <a class="text-decoration-none color0" href="#">
-                  USER NAME
-                </a>
-              </li>
-    
-              <li class="pad-3">
-                <a class="text-decoration-none color3" href="#">
-                  <i class="fas fa-user-circle"></i>
-                </a>
-              </li>
-            </ul>
+          <div class="d-flex justify-content-between align-items-center padl-2 padr-2 padt-2 main-nav color2">
+            <div>
+              <ul class="dflex pad-2 justify-content-around align-items-center color3">
+                <li class="pad-1 pad-3">
+                  <a href="index.html" class="text-decoration-none">
+                    <i class="fab fa-bootstrap fa-3x" aria-hidden="true"></i>
+                  </a>            
+                </li>
+      
+                <li>            
+                  <a class="pad-1 pad-3 color3 text-decoration-none" href="index.html">
+                    <i class="fas fa-home nav-icon"></i>
+                    HOME
+                  </a>
+                </li>
+      
+                <li>            
+                  <a class="pad-1 pad-3 color3 text-decoration-none" href="search.html">
+                    <i class="fas fa-border-all nav-icon"></i>
+                    COLLECTIONS
+                  </a>
+                </li>
+      
+                <li>            
+                  <a class="pad-1 pad-3 color3 text-decoration-none" href="#">
+                    <i class="fas fa-shopping-cart nav-icon"></i>
+                    PURCHASE LIST
+                  </a>
+                </li>
+      
+                <li class="pad-1 color3 text-decoration-none">
+                  <button class="post-an-ad btn">
+                    POST AN AD
+                  </button>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <ul class="dflex pad-2 justify-content-around">
+                <li class="pad-3">
+                  <a class="text-decoration-none color3" href="#">
+                    <i class="fas fa-envelope"></i>
+                  </a>
+                </li>
+      
+                <li class="pad-3">
+                  <a class="text-decoration-none color0" href="#">
+                    USER NAME
+                  </a>
+                </li>
+      
+                <li class="pad-3">
+                  <a class="text-decoration-none color3" href="#">
+                    <i class="fas fa-user-circle"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
           <!--MAIN NAV-->     
         </nav>
@@ -96,9 +98,9 @@
               <option value="Barbells">Accessories</option>
             </select>
             
-            <input class="mar-2" type="text" id="t-product" name="type-product" placeholder="What do you search for?">
+            <input class="search-mid mar-2" type="text" name="type-product" placeholder="What do you search for?">
             
-            <input class="mar-2" type="text" id="n-product" name="name-product" placeholder="Introduce location here">
+            <input class="search-mid-2 mar-2" type="text" name="name-product" placeholder="Introduce location here">
             <input class="search mar-2" type="submit" value="Search" >
           </form>
         </div>
@@ -214,7 +216,7 @@
                     <span class="font-weight-bold color2">By: </span><span class="text-muted">Buddy Caps</span>
                     <span class="font-weight-bold color2">Weight: </span><span class="text-muted">20kg</span>
                     <p><span class="font-weight-bold color2">Capacity:</span > <span class="text-muted">1500 lb (220k psi)</span></p>
-                    <div class="color2 dflex justify-content-between text-muted"><button class="barbells-price">$149</button>Add to cart <a class="color2 font-weight-bold"><i class="pl-3 w-100 far fa-plus-square"></i></a></div>
+                    <div class="color2 dflex justify-content-between text-muted"><button class="barbells-price">$149</button>Add to cart <a class="color2 font-weight-bold"><i class="pl-3 far fa-plus-square"></i></a></div>
                   </div>
                 </div>  
                 <div class="product-barbells-div marl-2 marr-2 bg-light">
@@ -224,7 +226,7 @@
                     <span class="font-weight-bold color2">By: </span><span class="text-muted">Buddy Caps</span>
                     <span class="font-weight-bold color2">Weight: </span><span class="text-muted">20kg</span>
                     <p><span class="font-weight-bold color2">Capacity:</span > <span class="text-muted">1500 lb (220k psi)</span></p>
-                    <div class="color2 dflex justify-content-between text-muted"><button class="barbells-price">$149</button>Add to cart <a class="color2 font-weight-bold"><i class="pl-3 w-100 far fa-plus-square"></i></a></div>
+                    <div class="color2 dflex justify-content-between text-muted"><button class="barbells-price">$149</button>Add to cart <a class="color2 font-weight-bold"><i class="pl-3 far fa-plus-square"></i></a></div>
                   </div>
                 </div> 
                 <div class="product-barbells-div marl-2 marr-2 bg-light">
@@ -234,7 +236,7 @@
                     <span class="font-weight-bold color2">By: </span><span class="text-muted">Buddy Caps</span>
                     <span class="font-weight-bold color2">Weight: </span><span class="text-muted">20kg</span>
                     <p><span class="font-weight-bold color2">Capacity:</span > <span class="text-muted">1500 lb (220k psi)</span></p>
-                    <div class="color2 dflex justify-content-between text-muted"><button class="barbells-price">$149</button>Add to cart <a class="color2 font-weight-bold"><i class="pl-3 w-100 far fa-plus-square"></i></a></div>
+                    <div class="color2 dflex justify-content-between text-muted"><button class="barbells-price">$149</button>Add to cart <a class="color2 font-weight-bold"><i class="pl-3 far fa-plus-square"></i></a></div>
                   </div>
                 </div> 
                 <div class="product-barbells-div marl-2 marr-2 bg-light">
@@ -244,7 +246,7 @@
                     <span class="font-weight-bold color2">By: </span><span class="text-muted">Buddy Caps</span>
                     <span class="font-weight-bold color2">Weight: </span><span class="text-muted">20kg</span>
                     <p><span class="font-weight-bold color2">Capacity:</span > <span class="text-muted">1500 lb (220k psi)</span></p>
-                    <div class="color2 dflex justify-content-between text-muted"><button class="barbells-price">$149</button>Add to cart <a class="color2 font-weight-bold"><i class="pl-3 w-100 far fa-plus-square"></i></a></div>
+                    <div class="color2 dflex justify-content-between text-muted"><button class="barbells-price">$149</button>Add to cart <a class="color2 font-weight-bold"><i class="pl-3 far fa-plus-square"></i></a></div>
                   </div>
                 </div> 
                 <div class="product-barbells-div marl-2 marr-2 bg-light">
@@ -269,7 +271,7 @@
                     <span class="font-weight-bold color2">By: </span><span class="text-muted">Buddy Caps</span>
                     <span class="font-weight-bold color2">Weight: </span><span class="text-muted">20kg</span>
                     <p><span class="font-weight-bold color2">Capacity:</span > <span class="text-muted">1500 lb (220k psi)</span></p>
-                    <div class="color2 dflex justify-content-between text-muted"><button class="barbells-price">$149</button>Add to cart <a class="color2 font-weight-bold"><i class="pl-3 w-100 far fa-plus-square"></i></a></div>
+                    <div class="color2 dflex justify-content-between text-muted"><button class="barbells-price">$149</button>Add to cart <a class="color2 font-weight-bold"><i class="pl-3 far fa-plus-square"></i></a></div>
                   </div>
                 </div>  
                 <div class="product-barbells-div marl-2 marr-2 bg-light">
@@ -279,7 +281,7 @@
                     <span class="font-weight-bold color2">By: </span><span class="text-muted">Buddy Caps</span>
                     <span class="font-weight-bold color2">Weight: </span><span class="text-muted">20kg</span>
                     <p><span class="font-weight-bold color2">Capacity:</span > <span class="text-muted">1500 lb (220k psi)</span></p>
-                    <div class="color2 dflex justify-content-between text-muted"><button class="barbells-price">$149</button>Add to cart <a class="color2 font-weight-bold"><i class="pl-3 w-100 far fa-plus-square"></i></a></div>
+                    <div class="color2 dflex justify-content-between text-muted"><button class="barbells-price">$149</button>Add to cart <a class="color2 font-weight-bold"><i class="pl-3 far fa-plus-square"></i></a></div>
                   </div>
                 </div> 
                 <div class="product-barbells-div marl-2 marr-2 bg-light">
@@ -289,7 +291,7 @@
                     <span class="font-weight-bold color2">By: </span><span class="text-muted">Buddy Caps</span>
                     <span class="font-weight-bold color2">Weight: </span><span class="text-muted">20kg</span>
                     <p><span class="font-weight-bold color2">Capacity:</span > <span class="text-muted">1500 lb (220k psi)</span></p>
-                    <div class="color2 dflex justify-content-between text-muted"><button class="barbells-price">$149</button>Add to cart <a class="color2 font-weight-bold"><i class="pl-3 w-100 far fa-plus-square"></i></a></div>
+                    <div class="color2 dflex justify-content-between text-muted"><button class="barbells-price">$149</button>Add to cart <a class="color2 font-weight-bold"><i class="pl-3 far fa-plus-square"></i></a></div>
                   </div>
                 </div> 
                 <div class="product-barbells-div marl-2 marr-2 bg-light">
@@ -299,7 +301,7 @@
                     <span class="font-weight-bold color2">By: </span><span class="text-muted">Buddy Caps</span>
                     <span class="font-weight-bold color2">Weight: </span><span class="text-muted">20kg</span>
                     <p><span class="font-weight-bold color2">Capacity:</span > <span class="text-muted">1500 lb (220k psi)</span></p>
-                    <div class="color2 dflex justify-content-between text-muted"><button class="barbells-price">$149</button>Add to cart <a class="color2 font-weight-bold"><i class="pl-3 w-100 far fa-plus-square"></i></a></div>
+                    <div class="color2 dflex justify-content-between text-muted"><button class="barbells-price">$149</button>Add to cart <a class="color2 font-weight-bold"><i class="pl-3 far fa-plus-square"></i></a></div>
                   </div>
                 </div> 
                 <div class="product-barbells-div marl-2 marr-2 bg-light">
@@ -309,7 +311,7 @@
                     <span class="font-weight-bold color2">By: </span><span class="text-muted">Buddy Caps</span>
                     <span class="font-weight-bold color2">Weight: </span><span class="text-muted">20kg</span>
                     <p><span class="font-weight-bold color2">Capacity:</span > <span class="text-muted">1500 lb (220k psi)</span></p>
-                    <div class="color2 dflex justify-content-between text-muted"><button class="barbells-price">$149</button>Add to cart <a class="color2 font-weight-bold"><i class="pl-3 w-100 far fa-plus-square"></i></a></div>
+                    <div class="color2 dflex justify-content-between text-muted"><button class="barbells-price">$149</button>Add to cart <a class="color2 font-weight-bold"><i class="pl-3 far fa-plus-square"></i></a></div>
                   </div>
                 </div> 
               </div>

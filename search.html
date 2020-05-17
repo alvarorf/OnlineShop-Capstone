@@ -6,59 +6,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
       
     <!-- Font awesome script -->
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
     <!-- Main stylesheet file -->
     <link rel="stylesheet" href="css/styles.css">
-    <!-- Media queries -->
-    <link rel="stylesheet" href="css/mediaqueries.css">
 
     <title>Barbend</title>
   </head>
   <body class="">
 
     <header class="">
-        <nav class="">
-          <!--MAIN NAV-->
-          <div class="dflex justify-content-between align-items-center padl-2 padr-2 1t-2 main-nav color2">
+      <nav class="main-topnav">
+        <!--MAIN NAV-->
+        <div class="d-flex justify-content-between align-items-center padl-2 padr-2 padt-2 main-nav color2">
+          <div>
             <ul class="dflex pad-2 justify-content-around align-items-center color3">
-              <li class="pad-3">
+              <li class="pad-1 pad-3">
                 <a href="index.html" class="text-decoration-none">
                   <i class="fab fa-bootstrap fa-3x" aria-hidden="true"></i>
                 </a>            
               </li>
     
               <li>            
-                <a class="pad-3 color3 text-decoration-none" href="index.html">
+                <a class="pad-1 pad-3 color3 text-decoration-none" href="index.html">
                   <i class="fas fa-home nav-icon"></i>
                   HOME
                 </a>
               </li>
     
               <li>            
-                <a class="pad-3 color3 text-decoration-none" href="search.html">
+                <a class="pad-1 pad-3 color3 text-decoration-none" href="search.html">
                   <i class="fas fa-border-all nav-icon"></i>
                   COLLECTIONS
                 </a>
               </li>
     
               <li>            
-                <a class="pad-3 color3 text-decoration-none" href="#">
+                <a class="pad-1 pad-3 color3 text-decoration-none" href="#">
                   <i class="fas fa-shopping-cart nav-icon"></i>
                   PURCHASE LIST
                 </a>
               </li>
     
-              <li class="pad-3 color3 text-decoration-none">
-                <button class="btn post-an-ad" type="button">
+              <li class="pad-1 color3 text-decoration-none">
+                <button class="post-an-ad btn">
                   POST AN AD
                 </button>
               </li>
             </ul>
-            
+          </div>
+          <div>
             <ul class="dflex pad-2 justify-content-around">
               <li class="pad-3">
                 <a class="text-decoration-none color3" href="#">
@@ -79,29 +80,31 @@
               </li>
             </ul>
           </div>
-          <!--MAIN NAV-->     
-        </nav>
-        <div class="search-nav justify-content-center align-items-center">
-          <h1 class="f-family-helvetica-m dflex font-weight-bold w-50 justify-content-center pad-2 align-items-center">
-            <i class="fab fa-bootstrap padr-2" aria-hidden="true"></i> Barbend
-          </h1>
-          
-          <form class="dflex justify-content-center align-items-center search-form" action="search.html">
-           
-            <select class="departments padl-4 text-muted mar-2" id="departments" name="departments">
-              <option value="departments">All Departments</option>
-              <option value="Barbells">Barbells</option>
-              <option value="Barbells">Racks</option>
-              <option value="Barbells">Accessories</option>
-            </select>
-            
-            <input class="mar-2" type="text" id="t-product" name="type-product" placeholder="What do you search for?">
-            
-            <input class="mar-2" type="text" id="n-product" name="name-product" placeholder="Introduce location here">
-            <input class="search mar-2" type="submit" value="Search" >
-          </form>
         </div>
-      </header>
+        <!--MAIN NAV-->     
+      </nav>
+      <div class="search-nav justify-content-center align-items-center">
+        <h1 class="f-family-helvetica-m dflex font-weight-bold w-50 justify-content-center pad-2 pb-2 align-items-center">
+          <i class="fab fa-bootstrap padr-2" aria-hidden="true"></i> Barbend
+        </h1>
+
+        <form class="dflex justify-content-center align-items-center search-form" action="search.html">
+         
+          <select class="departments padl-4 text-muted mar-2" id="departments" name="departments">
+            <option value="departments">All Departments</option>
+            <option value="Barbells">
+              Barbells</option>
+            <option value="Barbells">Racks</option>
+            <option value="Barbells">Accessories</option>
+          </select>
+          
+          <input class="search-mid mar-2" type="text" name="type-product" placeholder="What do you search for?">
+          
+          <input class="search-mid mar-2" type="text" name="name-product" placeholder="Introduce location here">
+          <input class="search mar-2" type="submit" value="Search" >
+        </form>
+      </div>
+    </header>
     
 
 

@@ -87,10 +87,6 @@ nav a i:hover {
   visibility: visible;
 }
 
-html {
-  min-width: 950px;
-}
-
 .empty-header {
   display: none;
 }
@@ -119,24 +115,14 @@ ul {
   color: #888;
 }
 
-.section-hotads {
-  width: 80%;
-}
-
-.carousel,
-.carousel-item,
-#hot-ads {
-  width: 100%;
-}
-
 section {
   width: 80%;
   margin: 0 auto;
 }
 
 .slide-img {
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
 }
 
 .slide-img-mid {
@@ -198,7 +184,6 @@ section {
   height: 200px;
   background-color: #d35266;
   background-image: url('../images/greyback.png');
-  min-width: 800px;
 }
 
 .departments {
@@ -305,7 +290,6 @@ footer a:hover {
 }
 
 .carousel-hotads {
-  max-width: 1100px;
   margin: auto;
 }
 
@@ -404,7 +388,7 @@ footer a:hover {
   background-color: transparent;
   padding: 6px 12px;
   margin-left: 15px;
-  min-width: 150px;
+  width: 150px;
   border: none;
   border: 1px solid rgba(136, 136, 136, 0.5);
 }
@@ -418,16 +402,15 @@ footer a:hover {
   color: #383838;
 }
 
-.footer1-select {
-  width: 30%;
-  min-width: 280px;
-}
-
 /*
 Media queries
 */
 
 @media only screen and (max-width: 1024px) {
+  .main-topnav * {
+    padding: 2px;
+  }
+
   body {
     margin: 0 auto;
   }
@@ -450,33 +433,89 @@ Media queries
 
   .product-hotads img {
     width: 50%;
-    min-width: 200px;
+    min-width: 180px;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .main-topnav * {
-    padding: 2px;
+  html {
+    font-size: 11px;
   }
 
-  section {
-    width: 95%;
+  .footer1 {
+    margin: 0;
   }
 
   .main-nav {
     white-space: nowrap;
   }
 
-  .main-topnav a {
-    font-size: 15px;
-  }
-
-  .main-topnav li {
-    padding: 2px;
-  }
-
   .search-nav form {
     padding: 0;
     margin: 0;
+  }
+
+  .main-topnav ul li,
+  .main-topnav ul li a,
+  .main-topnav button,
+  .main-topnav,
+  .main-topnav *,
+  .post-an-ad {
+    font-size: 10px;
+    padding: 0!important;
+  }
+
+  .search-nav h1 {
+    font-size: 20px;
+  }
+
+  .search {
+    width: 80px;
+  }
+
+  .search-mid {
+    width: 130px;
+  }
+
+  .search-mid-2 {
+    width: 118px;
+    padding: 0!important;
+  }
+
+  .departments {
+    width: 90px;
+  }
+  .post-an-ad {
+    height: 24px;
+    margin-left: 3px;
+  }
+
+  footer,
+  footer div * {
+    font-size: 9px;
+  }
+
+  .footer1 ul {
+    padding: 0;
+  }
+
+  footer div {
+    padding: 1px!important;
+  }
+
+  .button-footer {
+    width: 50px!important;
+  }
+
+  .search-form input,
+  .search-form select {
+    font-size: 11px;
+    padding: 2px;
+    height: 35px;
+  }
+
+  .main-topnav i {
+    font-size: 14px;
+    padding: 2px;
   }
 }
