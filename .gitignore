@@ -2,3 +2,4 @@
 .stilelintrc.json
 LICENSE
 stylelint.config.js
+bootstrap.min.css
