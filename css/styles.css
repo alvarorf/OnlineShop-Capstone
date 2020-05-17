@@ -247,9 +247,7 @@ section {
 }
 
 .img-search {
-  width: 40%;
-  margin-left: 20px;
-  margin-right: 20px;
+  width: 100%;
 }
 
 .product-barbells {
@@ -294,11 +292,11 @@ footer a:hover {
 }
 
 .prev {
-  left: -50px;
+  left: -30px;
 }
 
 .next {
-  right: -50px;
+  right: -30px;
 }
 
 .hotads-purchase {
@@ -307,7 +305,7 @@ footer a:hover {
   border: 0;
   padding: 5px;
   width: 100%;
-  min-width: 200px;
+  width: 200px;
   margin: 0 auto;
 }
 
@@ -318,6 +316,7 @@ footer a:hover {
 
 .purchase-text-hotads {
   margin-left: 20px;
+  width: 200px;
 }
 
 .options-search form {
@@ -442,6 +441,61 @@ Media queries
     font-size: 11px;
   }
 
+  .next {
+    right: -10px;
+  }
+
+  .prev {
+    left: -10px;
+  }
+
+  p {
+    font-size: 10px;
+    margin-bottom: 2px;
+  }
+
+  .prev-next-hotads {
+    width: 30px;
+    height: 30px;
+  }
+
+  .hotads-purchase {
+    width: 120px;
+    padding: 0;
+  }
+
+  .purchase-text-hotads {
+    margin: 0;
+    padding: 0;
+  }
+
+  .img-search {
+    margin: 0;
+    width: 100%;
+  }
+
+  section {
+    width: 90%;
+  }
+
+  .options-search {
+    width: 100px;
+    margin: 0;
+    padding: 0 0 0 2px;
+  }
+
+  .options-search form {
+    font-size: 10px;
+  }
+
+  .options-search label {
+    width: 80px;
+  }
+
+  .options-search h4 {
+    font-size: 12px;
+  }
+
   .footer1 {
     margin: 0;
   }
@@ -455,14 +509,24 @@ Media queries
     margin: 0;
   }
 
+
+  footer,
+  footer div * {
+    font-size: 9px;
+  }
+
   .main-topnav ul li,
-  .main-topnav ul li a,
   .main-topnav button,
   .main-topnav,
   .main-topnav *,
   .post-an-ad {
     font-size: 10px;
-    padding: 0!important;
+    padding: 0;
+  }
+
+  .main-topnav i,
+  .main-topnav ul li a {
+    padding: 1px;
   }
 
   .search-nav h1 {
@@ -479,20 +543,16 @@ Media queries
 
   .search-mid-2 {
     width: 118px;
-    padding: 0!important;
+    padding: 0 !important;
   }
 
   .departments {
     width: 90px;
   }
+
   .post-an-ad {
     height: 24px;
     margin-left: 3px;
-  }
-
-  footer,
-  footer div * {
-    font-size: 9px;
   }
 
   .footer1 ul {
@@ -500,11 +560,11 @@ Media queries
   }
 
   footer div {
-    padding: 1px!important;
+    padding: 1px;
   }
 
   .button-footer {
-    width: 50px!important;
+    width: 50px;
   }
 
   .search-form input,
