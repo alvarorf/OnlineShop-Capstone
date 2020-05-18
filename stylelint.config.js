@@ -1,4 +1,8 @@
 "use strict"
+files:
+  ignore:
+    - "css/bootstrap.min.css"
+    - "css/bootstrap-reboot.css"
 
 module.exports = {
   "extends": "stylelint-config-recommended",
