@@ -441,6 +441,10 @@ Media queries
     font-size: 11px;
   }
 
+  .product-barbells {
+    grid-template-columns: 1fr 1fr;
+  }
+
   .next {
     right: -10px;
   }
