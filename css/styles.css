@@ -165,7 +165,6 @@ section {
 .main-nav {
   height: 65px;
   background-color: #383838;
-  display: block;
 }
 
 .post-an-ad {
@@ -514,6 +513,7 @@ Media queries
   }
 
   .main-nav {
+    display: block;
     white-space: nowrap;
   }
 
