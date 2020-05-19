@@ -3,7 +3,7 @@
 > Welcome to my online Powerlifting store, built html and Bootstrap, a CSS framework. Please enjoy and leave a comment. 
 
 The live demo can be found here:
-[Live Demo](https://rawcdn.githack.com/alvarorf/OnlineShop-Capstone/49eed0903a42db1a5ecdfa4321dd2f11b2d9f2c8/index.html)
+[Live Demo](https://rawcdn.githack.com/alvarorf/OnlineShop-Capstone/1c7a15bf0a526bbb91c9833be03a68e0d7d5ff78/index.html)
 
 ## Built With
 
