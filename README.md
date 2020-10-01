@@ -1,6 +1,6 @@
-# Using Bootstrap: Newsweek Clone
+# Powerlifting store
 
-> Welcome to my online Powerlifting store, built html and Bootstrap, a CSS framework. Please enjoy and leave a comment. 
+> Welcome to my online Powerlifting store, built with HTML5 and Bootstrap 4, a CSS framework. Please enjoy and leave a comment.
 
 The live demo can be found here:
 [Live Demo](https://rawcdn.githack.com/alvarorf/OnlineShop-Capstone/fca301d25242751c94cb3d1e1fa7ea9bb144affd/index.html)
